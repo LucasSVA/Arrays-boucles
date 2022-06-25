@@ -105,7 +105,7 @@
 
 
 
-// ---- ex - 8
+// ---- ex - 7
 
 
 
@@ -128,7 +128,20 @@
 // }
 
 
-// ---- ex - 9
+// ---- ex - 8
+
+
+// let sqMeter = 0
+// let sum = 0
+
+// for (let i = 5; i <= 10; i++) {
+
+
+//     sqMeter = i * i
+//     sum += sqMeter
+//     console.log(sum);
+
+// }
 
 
 
