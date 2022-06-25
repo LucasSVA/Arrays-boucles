@@ -109,21 +109,15 @@
 
 
 
-// for (let f = 0; f < 9; f++) {
-
+// for (let f = 0; f <= 8; f++) {
 //     let result = 1
-//     if (f === 7) {
-//         console.log(`0! = ${result}`);
 
-//     } else {
-//         for (let i = 1; i <= f; i++) {
 
-//             result *= i
-//             console.log(`${i}! = ${result}`);
-//         }
+//     for (let i = f; i <= f; i++) {
 
+//         result *= i
+//         console.log(`${i}! = ${result}`);
 //     }
-
 
 // }
 
@@ -136,29 +130,70 @@
 
 // for (let i = 5; i <= 10; i++) {
 
-
 //     sqMeter = i * i
 //     sum += sqMeter
-//     console.log(sum);
 
 // }
+
+// console.log(sum);
 
 
 
 //---- ex- 9
 
-let result = 0
+// let result = 0
 
-for (let i = 100; i <= 1000; i++) {
+// for (let i = 100; i <= 1000; i++) {
 
-    if ((i % 7) === 0) {
-        result++
+//     if ((i % 7) === 0) {
+//         result++
 
-    }
-}
-console.log(result);
+//     }
+// }
+// console.log(result);
 
 // ---- ex - 10
 
 
+// for (let i = 0; i < 20; i++) {
+//     let randomNumber = Math.ceil(Math.random() * 6)
+
+
+//     if (randomNumber === 5 || randomNumber > 5) {
+//         console.log(randomNumber);
+//     }
+// }
+
+//---- ex - 11
+
+
+// rep - 1 = 10
+// rep - 2 = 17
+// rep - 3 = 34
+// rep - 4 = 30
+// rep - 5 = 14
+
+
+
+//  ----- ex -12
+
+// rep - 1 = 12
+// rep - 2 = 24
+// rep - 3 = 33
+// rep - 4 = 39
+// rep - 5 = 42
+// rep - 6 = 0
+
+
+
+// ---- ex - 13
+
+
+// rep - 1 = 0
+// rep - 2 = 3
+// rep - 3 = -3
+// rep - 4 = 2
+// rep - 5 = - 2
+// rep - 6 = 5
+// rep - 7 = -4
 
